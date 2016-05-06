@@ -1,0 +1,331 @@
+/* *{ outline: 1px solid red } */
+
+html {
+	font-size: 62,5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Helvetica Neue";
+	color: #FFFFFF;
+}
+
+h2 {
+	position: relative;
+	font-size: 2,4rem;
+	margin-left: 20.1rem;
+	line-height: 2.3rem;
+	font-weight: 500;
+}
+
+h3 {
+	font-family: "Raleway SemiBold";
+	color: #222222;
+	font-size: 22px;
+}
+.page-header .systems {
+	position: absolute;
+	margin-top: -0.5rem;
+	margin-left: 19.8rem;
+}
+
+.page-header .systems .container{
+  height: 53px;
+  width: 53px;
+  display: inline-block;
+  margin: 0.3rem;
+}
+.page-header .systems .apple {
+	display: block;
+	height: 53px;
+	width: 53px;
+	border-radius: 50%;
+	background-image: url("../img/apple-icon.png");
+	background-repeat: no-repeat;
+	background-position: 50% 45%;
+	background-color: #362218;
+	transition: all 500ms ease-in-out;
+}
+.page-header .systems .apple:hover {
+    background-color: #0ECC71;
+}
+
+.page-header .android {
+	display: block;
+	height: 53px;
+	width: 53px;
+	border-radius: 50%;
+	background-image: url("../img/android-icon.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #362218;
+	transition: all 500ms ease-in-out;
+}
+.page-header .android:hover {
+    background-color: #0ECC71;
+}
+.page-header .windows {
+	display: block;
+	height: 53px;
+	width: 53px;
+	border-radius: 50%;
+	background-image: url("../img/windows-icon.png");
+	background-repeat: no-repeat;
+	background-position: 40% 50%;
+	background-color: #362218;
+	transition: all 500ms ease-in-out;
+}
+.page-header .windows:hover {
+    background-color: #0ECC71;
+}
+
+.logo {
+	padding: 0;
+	margin: 0;
+	font-family: "Pacifico";
+	font-size: 3.8rem;
+	font-weight: 300;
+	position: relative;
+	margin-top: -29.2rem;
+	margin-left: 20.1rem;
+}
+
+.logo:after {
+    content: ". ";
+    color: #2ECC71;
+}
+.page-header {
+	background: url(../img/header-image.png) no-repeat;
+	background-size: cover;
+	background-position: 100%;
+	padding-top: 37.4rem;
+}
+
+.page-header .hand-image {
+	position: absolute;
+	margin-top: -16.6rem;
+	margin-left: 55.5rem;
+}
+
+.container-features .col-md-4 .features-paragraph {
+	font-family: "Helvetica Neue";
+	color: #848484;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.container-features {
+	margin-left: 99px;
+	margin-right: 99px;
+	margin-bottom: 38.5px;
+}
+.container-features .col-md-4 {
+	display:inline-block;
+	text-align: center;
+	padding-top: 41.8px;
+	margin-left: 100px;
+}
+
+.container-notified {
+	background-color: #E3E3E3;
+	padding-top: 30px;
+	padding-left: 199px;
+	padding-bottom: 136px;
+}
+
+.container-notified h3 {
+	font-size: 22px;
+	color: #222222;
+}
+
+.container-notified p {
+	font-size: 16px;
+	color: #848484;
+	line-height: 26px;
+	font-weight: 500;
+}
+
+.container-notified img {
+	position: absolute;
+	margin-top: -56px;
+	margin-left: 305px;
+}
+
+.container-notified input {
+	width: 283.5px;
+	height: 52.7px;
+	margin-top: 10px;
+	border-radius: 14px 0px 0px 14px;
+	border: 1px solid #cacaca;
+	font-size: 18px;
+	font-family: "Helvetica Neue"
+	font-weight: 500;
+	padding-left: 20px;
+	outline: 0;
+	}
+
+.container-notified .video {
+	position: absolute;
+	margin-top: -225px;
+	margin-left: 682px;
+}
+
+.upper-footer p {
+	font-size: 18px;
+	font-family: "PT Sans";
+	font-weight: 300;
+	color: #848484;
+	line-height: 30px;
+	text-align: center;
+	padding-top: 35px;
+}
+
+.upper-footer h1 {
+	font-family: "Raleway";
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	color: #2E2E2E;
+}
+
+.upper-footer .sayhi {
+	font-family: "Raleway SemiBold";
+	color: #000000;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding-top: 48px;
+}
+
+.upper-footer .portraits img {
+	margin-left: 225px;
+	margin-top: 10px;
+}
+
+.upper-footer .p2 {
+	margin-top: 5px;
+	padding: 0px;
+	font-family: "PT Sans";
+	font-size: 16px;
+	word-spacing: 0.1em;
+}
+.upper-footer .container {
+	position: relative;
+	margin-left: 662px;
+	padding-bottom: 50px;
+}
+
+.upper-footer .socials {
+	display: inline-block;
+	margin: 3px;
+}
+
+.upper-footer .socials .twitter {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/twitter.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .twitter:hover {
+    background-color: #0ECC71;
+}
+
+.upper-footer .socials .facebook {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/facebook.png");
+	background-repeat: no-repeat;
+	background-position: 48% 50%;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .facebook:hover {
+    background-color: #0ECC71;
+}
+
+.upper-footer .socials .pinrest {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/pinrest.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .pinrest:hover {
+    background-color: #0ECC71;
+}
+
+.upper-footer .socials .google {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/google+.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .google:hover {
+    background-color: #0ECC71;
+}
+
+.upper-footer .socials .linkedin {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/linkedin.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .linkedin:hover {
+    background-color: #0ECC71;
+}
+
+.upper-footer .socials .youtube {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/youtube.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .youtube:hover {
+    background-color: #0ECC71;
+}
+
+.footer-links {
+	text-align: center;
+	background-color: #E3E3E3;
+	padding-top: 34.5px;
+	padding-bottom: 34.5px;
+}
+.footer-links h3 {
+	display:inline-block;
+	font-family: "PT Sans";
+	font-size: 16px;
+	color: #848484;
+	font-weight: 300;
+	margin-right: 15px;
+}
