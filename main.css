@@ -42,7 +42,7 @@ h3 {
 	height: 53px;
 	width: 53px;
 	border-radius: 50%;
-	background-image: url("../img/apple-icon.png");
+	background-image: url("apple-icon.png");
 	background-repeat: no-repeat;
 	background-position: 50% 45%;
 	background-color: #362218;
@@ -57,7 +57,7 @@ h3 {
 	height: 53px;
 	width: 53px;
 	border-radius: 50%;
-	background-image: url("../img/android-icon.png");
+	background-image: url("android-icon.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #362218;
@@ -71,7 +71,7 @@ h3 {
 	height: 53px;
 	width: 53px;
 	border-radius: 50%;
-	background-image: url("../img/windows-icon.png");
+	background-image: url("windows-icon.png");
 	background-repeat: no-repeat;
 	background-position: 40% 50%;
 	background-color: #362218;
@@ -97,7 +97,7 @@ h3 {
     color: #2ECC71;
 }
 .page-header {
-	background: url(../img/header-image.png) no-repeat;
+	background: url(header-image.png) no-repeat;
 	background-size: cover;
 	background-position: 100%;
 	padding-top: 37.4rem;
@@ -230,7 +230,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/twitter.png");
+	background-image: url("twitter.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -245,7 +245,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/facebook.png");
+	background-image: url("facebook.png");
 	background-repeat: no-repeat;
 	background-position: 48% 50%;
 	background-color: #D4D4D4;
@@ -260,7 +260,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/pinrest.png");
+	background-image: url("pinrest.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -275,7 +275,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/google+.png");
+	background-image: url("google+.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -290,7 +290,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/linkedin.png");
+	background-image: url("linkedin.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -305,7 +305,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/youtube.png");
+	background-image: url("youtube.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -344,7 +344,7 @@ h3 {
 	}
 
 	.page-header {
-		background: url(../img/header-image.png) no-repeat;
+		background: url(header-image.png) no-repeat;
 		background-size: cover;
 		background-position: center;
 		padding-top: 35.5rem;
@@ -377,7 +377,7 @@ h3 {
 		height: 53px;
 		width: 53px;
 		border-radius: 50%;
-		background-image: url("../img/apple-icon.png");
+		background-image: url("apple-icon.png");
 		background-repeat: no-repeat;
 		background-position: 50% 45%;
 		background-color: #362218;
@@ -392,7 +392,7 @@ h3 {
 		height: 53px;
 		width: 53px;
 		border-radius: 50%;
-		background-image: url("../img/android-icon.png");
+		background-image: url("android-icon.png");
 		background-repeat: no-repeat;
 		background-position: center;
 		background-color: #362218;
@@ -406,7 +406,7 @@ h3 {
 		height: 53px;
 		width: 53px;
 		border-radius: 50%;
-		background-image: url("../img/windows-icon.png");
+		background-image: url("windows-icon.png");
 		background-repeat: no-repeat;
 		background-position: 40% 50%;
 		background-color: #362218;
@@ -574,7 +574,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/twitter.png");
+	background-image: url("twitter.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -589,7 +589,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/facebook.png");
+	background-image: url("facebook.png");
 	background-repeat: no-repeat;
 	background-position: 48% 50%;
 	background-color: #D4D4D4;
@@ -604,7 +604,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/pinrest.png");
+	background-image: url("pinrest.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -619,7 +619,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/google+.png");
+	background-image: url("google+.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -634,7 +634,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/linkedin.png");
+	background-image: url("linkedin.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -649,7 +649,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("../img/youtube.png");
+	background-image: url("youtube.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
