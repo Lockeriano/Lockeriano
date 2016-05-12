@@ -12,9 +12,9 @@ body {
 	color: #FFFFFF;
 }
 
-h2 {
+.page-header h2 {
 	position: relative;
-	font-size: 2,4rem;
+	font-size: 24px;
 	margin-left: 20.1rem;
 	line-height: 2.3rem;
 	font-weight: 500;
@@ -27,8 +27,8 @@ h3 {
 }
 .page-header .systems {
 	position: absolute;
-	margin-top: -0.5rem;
-	margin-left: 19.8rem;
+	margin-top: 5px;
+	margin-left: 314px;
 }
 
 .page-header .systems .container{
@@ -42,7 +42,7 @@ h3 {
 	height: 53px;
 	width: 53px;
 	border-radius: 50%;
-	background-image: url("apple-icon.png");
+	background-image: url("../img/apple-icon.png");
 	background-repeat: no-repeat;
 	background-position: 50% 45%;
 	background-color: #362218;
@@ -57,7 +57,7 @@ h3 {
 	height: 53px;
 	width: 53px;
 	border-radius: 50%;
-	background-image: url("android-icon.png");
+	background-image: url("../img/android-icon.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #362218;
@@ -71,7 +71,7 @@ h3 {
 	height: 53px;
 	width: 53px;
 	border-radius: 50%;
-	background-image: url("windows-icon.png");
+	background-image: url("../img/windows-icon.png");
 	background-repeat: no-repeat;
 	background-position: 40% 50%;
 	background-color: #362218;
@@ -97,7 +97,7 @@ h3 {
     color: #2ECC71;
 }
 .page-header {
-	background: url(header-image.png) no-repeat;
+	background: url(../img/header-image.png) no-repeat;
 	background-size: cover;
 	background-position: 100%;
 	padding-top: 37.4rem;
@@ -230,7 +230,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("twitter.png");
+	background-image: url("../img/twitter.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -245,7 +245,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("facebook.png");
+	background-image: url("../img/facebook.png");
 	background-repeat: no-repeat;
 	background-position: 48% 50%;
 	background-color: #D4D4D4;
@@ -260,7 +260,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("pinrest.png");
+	background-image: url("../img/pinrest.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -275,7 +275,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("google+.png");
+	background-image: url("../img/google+.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -290,7 +290,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("linkedin.png");
+	background-image: url("../img/linkedin.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -305,7 +305,7 @@ h3 {
 	height: 34px;
 	width: 34px;
 	border-radius: 50%;
-	background-image: url("youtube.png");
+	background-image: url("../img/youtube.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #D4D4D4;
@@ -328,4 +328,347 @@ h3 {
 	color: #848484;
 	font-weight: 300;
 	margin-right: 15px;
+}
+
+@media only screen and (max-device-width:480px) {
+	/* styles for mobile browsers smaller than 480px; (iPhone) */
+	.logo {
+		padding: 0;
+		margin: 0;
+		font-family: "Pacifico";
+		font-size: 3.8rem;
+		font-weight: 300;
+		position: relative;
+		margin-top: -30.2rem;
+		margin-left: 3.1rem;
+	}
+
+	.page-header {
+		background: url(../img/header-image.png) no-repeat;
+		background-size: cover;
+		background-position: center;
+		padding-top: 35.5rem;
+	}
+
+	.page-header h2 {
+		position: relative;
+		font-size: 1.4rem;
+		margin-left: 3.1rem;
+		line-height: 2.0rem;
+		font-weight: 500;
+		margin-top: 40px;
+	}
+
+	.page-header .systems {
+		position: absolute;
+		margin-top: 6rem;
+		margin-left: 3rem;
+	}
+
+	.page-header .systems .container{
+		position: initial;
+		height: 53px;
+		width: 53px;
+		display: inline-block;
+		margin: 0.8rem;
+	}
+	.page-header .systems .apple {
+		display: block;
+		height: 53px;
+		width: 53px;
+		border-radius: 50%;
+		background-image: url("../img/apple-icon.png");
+		background-repeat: no-repeat;
+		background-position: 50% 45%;
+		background-color: #362218;
+		transition: all 500ms ease-in-out;
+	}
+	.page-header .systems .apple:hover {
+	    background-color: #0ECC71;
+	}
+
+	.page-header .android {
+		display: block;
+		height: 53px;
+		width: 53px;
+		border-radius: 50%;
+		background-image: url("../img/android-icon.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #362218;
+		transition: all 500ms ease-in-out;
+	}
+	.page-header .android:hover {
+	    background-color: #0ECC71;
+	}
+	.page-header .windows {
+		display: block;
+		height: 53px;
+		width: 53px;
+		border-radius: 50%;
+		background-image: url("../img/windows-icon.png");
+		background-repeat: no-repeat;
+		background-position: 40% 50%;
+		background-color: #362218;
+		transition: all 500ms ease-in-out;
+	}
+	.page-header .windows:hover {
+	    background-color: #0ECC71;
+	}
+
+	.page-header .hand-image {
+		display: none;
+		position: absolute;
+		margin-top: -16.6rem;
+		margin-left: 55.5rem;
+	}
+
+	.container-features .col-md-4 .features-paragraph {
+		font-family: "Helvetica Neue";
+		color: #848484;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 20px;
+	}
+
+	.container-features {
+		margin-left: 160px;
+		margin-right: 99px;
+		margin-bottom: 38.5px;
+	}
+
+	.container-features .col-md-4 {
+		text-align: center;
+		padding-top: 41.8px;
+		margin-left: -125px;
+	}
+
+	.container-features {
+	margin-left: 99px;
+	margin-right: 99px;
+	margin-bottom: 38.5px;
+}
+.container-features .col-md-4 {
+	display:inline-block;
+	text-align: center;
+	padding-top: 41.8px;
+	margin-left: 20px;
+}
+
+.container-notified {
+	background-color: #E3E3E3;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+}
+
+.container-notified h3 {
+	font-size: 18px;
+	color: #222222;
+}
+
+.container-notified p {
+	font-size: 14px;
+	color: #848484;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+.container-notified .notified {
+	position: relative;
+	display: block;
+	height: 44px;
+	width: 100px;
+	background-color: #2ecc71;
+	border-radius: 0px 15px 15px 0px;
+	text-decoration: none;
+	margin-left: 182px;
+	margin-top: -62px;
+}
+
+.container-notified .notified p {
+	font-size: 18px;
+	font-family: "Raleway";
+	color: #FFFFFF;
+	font-weight: 600;
+	margin-left: 22px;
+	padding-top: 10px;
+}
+
+.container-notified input {
+	width: 163.5px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 14px 0px 0px 14px;
+	border: 1px solid #cacaca;
+	font-size: 14px;
+	font-family: "Helvetica Neue"
+	font-weight: 500;
+	padding-left: 20px;
+	outline: 0;
+	}
+
+.container-notified .video {
+	display: none;
+	position: absolute;
+	margin-top: -225px;
+	margin-left: 682px;
+}
+
+.upper-footer p {
+	font-size: 16px;
+	font-family: "PT Sans";
+	font-weight: 300;
+	color: #848484;
+	line-height: 24px;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+
+.upper-footer h1 {
+	font-family: "Raleway";
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	color: #2E2E2E;
+}
+
+.upper-footer .sayhi {
+	font-family: "Raleway SemiBold";
+	color: #000000;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding-top: 48px;
+}
+
+.upper-footer .portraits img {
+	display: none;
+	margin-left: 225px;
+	margin-top: 10px;
+}
+
+.upper-footer .p2 {
+	margin-top: 5px;
+	padding: 0px;
+	font-family: "PT Sans";
+	font-size: 16px;
+	word-spacing: 0.1em;
+}
+.upper-footer .container {
+	position: relative;
+	margin-left: 30px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.upper-footer .socials {
+	margin: 3px;
+}
+
+.upper-footer .socials .twitter {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/twitter.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .twitter:hover {
+    background-color: #0ECC71;
+}
+
+.upper-footer .socials .facebook {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/facebook.png");
+	background-repeat: no-repeat;
+	background-position: 48% 50%;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .facebook:hover {
+    background-color: #0ECC71;
+}
+
+.upper-footer .socials .pinrest {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/pinrest.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .pinrest:hover {
+    background-color: #0ECC71;
+}
+
+.upper-footer .socials .google {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/google+.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .google:hover {
+    background-color: #0ECC71;
+}
+
+.upper-footer .socials .linkedin {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/linkedin.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .linkedin:hover {
+    background-color: #0ECC71;
+}
+
+.upper-footer .socials .youtube {
+	display: block;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-image: url("../img/youtube.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D4D4D4;
+	transition: all 200ms ease-in-out;
+}
+.upper-footer .socials .youtube:hover {
+    background-color: #0ECC71;
+}
+
+.footer-links {
+	background-color: #E3E3E3;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer-links h3 {
+	display:block;
+	margin-left: 20px;
+	font-family: "PT Sans";
+	font-size: 16px;
+	color: #848484;
+	font-weight: 300;
 }
