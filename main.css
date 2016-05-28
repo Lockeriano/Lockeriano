@@ -118,15 +118,18 @@ h3 {
 }
 
 .container-features {
-	margin-left: 99px;
-	margin-right: 99px;
+	margin: auto;
 	margin-bottom: 38.5px;
+	list-style: none;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
 }
 .container-features .col-md-4 {
 	display:inline-block;
-	text-align: center;
 	padding-top: 41.8px;
-	margin-left: 100px;
+	margin: auto;
+	text-align: center;
 }
 
 .container-notified {
@@ -160,6 +163,16 @@ h3 {
 	margin-top: -78px;
 }
 
+.container-notified .notified p {
+	position: relative;
+	text-align: center;
+	font-size: 22px;
+	font-family: "Raleway";
+	color: #FFFFFF;
+	font-weight: 600;
+	padding-top: 14px;
+}
+
 .container-notified input {
 	width: 283.5px;
 	height: 52.7px;
@@ -171,7 +184,7 @@ h3 {
 	font-weight: 500;
 	padding-left: 20px;
 	outline: 0;
-	}
+}
 
 .container-notified .video {
 	position: absolute;
