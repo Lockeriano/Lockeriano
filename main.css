@@ -148,10 +148,16 @@ h3 {
 	font-weight: 500;
 }
 
-.container-notified img {
-	position: absolute;
-	margin-top: -56px;
-	margin-left: 305px;
+.container-notified .notified {
+	position: relative;
+	display: block;
+	height: 56px;
+	width: 140px;
+	background-color: #2ecc71;
+	border-radius: 0px 15px 15px 0px;
+	text-decoration: none;
+	margin-left: 302px;
+	margin-top: -78px;
 }
 
 .container-notified input {
